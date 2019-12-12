@@ -1,0 +1,9 @@
+{
+  "name": "smartineau.me-error",
+  "scripts": {
+    "build": "node index.js"
+  },
+  "devDependencies": {
+    "html-minifier": "^4.0.0"
+  }
+}

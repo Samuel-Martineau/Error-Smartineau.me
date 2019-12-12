@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>
+      Erreur ERROR_CODE - Smartineau.me
+    </title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Comic Sans MS', sans-serif;
+      }
+
+      html {
+        background-color: #faf5ef;
+      }
+
+      main {
+        text-align: center;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      .pulse {
+        animation: pulse 0.5s infinite alternate-reverse;
+      }
+
+      @keyframes pulse {
+        0% {
+          opacity: 0.7;
+          font-size: 80%;
+        }
+        100% {
+          opacity: 1;
+          font-size: 500%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1 class="pulse">🚨</h1>
+      <h1>Une erreur inattendue est survenue</h1>
+      <h2>
+        Erreur ERROR_CODE - ERROR_MESSAGE
+      </h2>
+    </main>
+  </body>
+</html>
